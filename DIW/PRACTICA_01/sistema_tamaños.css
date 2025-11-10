@@ -81,6 +81,51 @@ margin, padding, font-size, color y background-color.*/
         font-size: 0.875rem;/* Botones / UI. También 1rem. 16px / 14px */
     }
 
+/*-----------------------------------------------------------------------------------------*/
+/*----------------------------Color-----------------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
 
 
+.c-p {
+        color: #111111;        /* Color principal. Negro, para texto principal */
+    }
 
+.c-s {
+        color: #666;        /* Color-secundario.Gris medio, para subtítulos o párrafos */
+    }
+
+.c-err {
+        color: #dc3545;     /* Color-error. Rojo, para errores o avisos */
+    }
+
+.c-ex {
+        color: #198754;     /* Color-exito. Verde, para mensajes positivos */
+    }
+
+/*-----------------------------------------------------------------------------------------*/
+/*----------------------------Back-Ground-Color-----------------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+
+
+.f-p {
+        background-color: #ffffff;  /* Fondo-principal. Blanco: fondo base */
+    }
+
+.f-s {
+        background-color: #f5f5f5;  /* Fondo-suave. Gris claro, fondo alternativo */
+    }
+
+.f-a {
+        background-color:  #111111;  /* Fondo acento.Negro, color de marca o encabezado. Contraste legible */
+        color: white;               
+    }
+
+.f-err {
+        background-color: #dc3545;  /* Fondo error.Rojo */
+        color: white;
+    }
+
+.f-e {
+        background-color: #198754;  /* Fondo-exito. Verde */
+        color: white;
+    }
