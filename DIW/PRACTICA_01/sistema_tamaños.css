@@ -1,0 +1,14 @@
+/*Sistema de tamaños clases CSS que definan:
+margin, padding, font-size, color y background-color.*/
+
+/*Margin*/
+.m-p{
+        margin:0.5 rem; /*Margin. pequeño para Espacios pequeños entre */
+    }                   /* elementos relacionados (texto + icono). 8px*/ 
+
+.m-m{
+        margin: 1 rem;  /*Margin. mediano Separar párrafos, botones, títulos pequeños. 16px*/
+    }  
+.m-g{
+        margin: 2 rem; /*Margin grande. Separar bloques grandes o secciones enteras.32px*/
+    }
