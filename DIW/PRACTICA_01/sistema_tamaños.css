@@ -1,7 +1,10 @@
 /*Sistema de tamaños clases CSS que definan:
 margin, padding, font-size, color y background-color.*/
 
-/*Margin*/
+/*-----------------------------------------------------------------------------------------*/
+/*----------------------------Margin-----------------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+
 .m-p{
         margin:0.5 rem; /*Margin. pequeño para Espacios pequeños entre */
     }                   /* elementos relacionados (texto + icono). 8px*/ 
@@ -12,3 +15,72 @@ margin, padding, font-size, color y background-color.*/
 .m-g{
         margin: 2 rem; /*Margin grande. Separar bloques grandes o secciones enteras.32px*/
     }
+
+/*-----------------------------------------------------------------------------------------*/
+/*----------------------------Padding-----------------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+
+.p-p{
+        padding:0.5 rem; /*Espacios internos muy sutiles, iconos, botones pequeños */
+    }                   /* Padding pequeño*/ 
+
+.p-b{
+        padding: 1 rem;  /*Paddig base.Botones normales, tarjetas pequeñas, inputs. 16px*/
+    }  
+.p-m{
+        margin: 1.5 rem; /*Padding medio. Contenedores, bloques de texto, cards grandes.24px*/
+    }
+.p-g{
+        padding: 2rem; /* Padding grande. Secciones completas, headers o pies de página. 32px*/
+    }
+
+
+.p-xl{
+        padding: 3rem; /* Padding extra grande (padding: 3rem o más). Hero section, portadas, bloques destacados. 48px+*/
+    }
+
+.p-h{
+        padding-left: 1rem; padding-right: 1rem; /* Padding horizontal.Espacio a izquierda y derecha*/
+                                                    
+    }
+
+.p-v { 
+        padding-top: 1.5rem; /*Padding vertical.Espacio arriba y abajo*/
+        padding-bottom: 1.5rem; 
+    }
+
+
+/*-----------------------------------------------------------------------------------------*/
+/*----------------------------Font-Size-----------------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+
+.t-n{
+        font-size: 1rem;/* Texto normal.16px */
+    }
+
+.t-p{
+        font-size: 0.875rem;/* Texto pequeño (notas, footer).14px*/
+    }
+
+.t-h1{
+        font-size: 2rem;/* H1.32px*/
+    }
+
+.t-h2{
+        font-size: 1.5rem;/* H2. 24px*/
+    }
+
+.t-h3{
+        font-size: 1.25rem; /* H3. 20px*/
+    }
+
+.t-h4{
+        font-size: 1.125rem; /* H4. 18px*/
+    }
+.t-b-ui{
+        font-size: 0.875rem;/* Botones / UI. También 1rem. 16px / 14px */
+    }
+
+
+
+
