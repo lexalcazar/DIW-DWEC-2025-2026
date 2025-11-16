@@ -91,11 +91,11 @@ margin, padding, font-size, color y background-color.*/
     }
 
 .c-s {
-        color: #666;        /* Color-secundario.Gris medio, para subtítulos o párrafos */
+        color: #DEE2E6;        /* Color-secundario.Gris medio, para subtítulos o párrafos */
     }
 
 .c-err {
-        color: #dc3545;     /* Color-error. Rojo, para errores o avisos */
+        color:   /*#A83232;*/#C44545;/*prueba de rojo*/    /* Color-error. Rojo, para errores o avisos */
     }
 
 .c-ex {
@@ -112,7 +112,7 @@ margin, padding, font-size, color y background-color.*/
     }
 
 .f-s {
-        background-color: #f5f5f5;  /* Fondo-suave. Gris claro, fondo alternativo */
+        background-color: #DEE2E6/*#f5f5f5*/;  /* Fondo-suave. Gris claro, fondo alternativo */
     }
 
 .f-a {
