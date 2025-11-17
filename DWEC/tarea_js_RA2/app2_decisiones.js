@@ -20,22 +20,22 @@ let nota=10;
 
 if(nota<5){ // si nota es menor a 5
 
-    console.log("Has obtenido un: "+ nota+" Insuficiente"); //imprime Insuficiente
+    console.log("Insuficiente"); //imprime Insuficiente
 
     }else if(nota<6 && nota>=5){ // si es menor que 6 y mayor que cinco
 
-        console.log("Has obtenido un: "+ nota+" Suficinete");// imprime suficinete
+        console.log("Suficiente");// imprime suficinete
 
         }else if(nota<7 && nota>=6){ // si es menor que 7 y mayor o igual a 6
 
-            console.log("Has obtenido un: "+ nota+" Bien"); // imprime bien
+            console.log("Bien"); // imprime bien
 
             }else if(nota>=7 && nota<=8.9){ // si es mayor o igual a 7 y menor que 8,9
 
-                console.log("Has obtenido un: "+ nota+" Notable"); // imprime notable
+                console.log("Notable"); // imprime notable
 
                 }else if(nota>=9){ // si nota es mayor o igual a 9
 
-                    console.log("Has obtenido un: "+ nota+" Sobresaliente"); // imprime sobresaliente
+                    console.log("Sobresaliente"); // imprime sobresaliente
 
                     }
