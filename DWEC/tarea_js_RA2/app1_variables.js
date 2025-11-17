@@ -1,7 +1,7 @@
 //---------------------------------
 //Declaracion de variables
 //---------------------------------
-// Lasavariable tipo let las utilizamos para que su valor prevalezca en todo el script 
+// Las variables tipo let las utilizamos para que su valor prevalezca en todo el script 
 // y no sólo en determinados bloques.
 //Declaramos una variable numerica edad en la que guardaremos números.
 let edad=40;
