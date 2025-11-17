@@ -1,7 +1,9 @@
 //---------------------------------------------------------
 // PROGRAMA CLASIFICACIÓN DE NOTAS
 //----------------------------------------------------------
-
+console.log("----------------------------------");
+console.log("Programa clasificación de notas");
+console.log("----------------------------------");
 let nota=7;
 
 if(nota<5){ // si nota es menor a 5
@@ -28,7 +30,9 @@ if(nota<5){ // si nota es menor a 5
 //-------------------------------------------------------------------------------
 // VALIDACIÓN DE ENTRADA TIPO TEXTO -> NÚMERO
 //-------------------------------------------------------------------------------
-
+console.log("------------------------------------------");
+console.log("Validación de entrada de texto -> número");
+console.log("------------------------------------------");
 let notaTexto="7"; // declaramos notaTexto como un string
 let notaNumero; // declaramos notaNumero
 console.log("Tipo de dato: "+typeof(notaTexto));// imprimimos el tipo de dato que hay en notaTexto
@@ -38,7 +42,9 @@ console.log("Visualizamos el tipo de dato tras la conversión: "+typeof(notaNume
 //----------------------------------------------------------------------------------
 // USO DE SWITCH
 //----------------------------------------------------------------------------------
-
+console.log("-----------------------------");
+console.log("Uso de switch");
+console.log("-----------------------------");
 let rolUsuario="caca"; // decramos la variable a comprobar
 
 switch(rolUsuario){ // comprobamos el valor de rolUsuario

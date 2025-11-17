@@ -1,7 +1,9 @@
 //------------------------------------------------------------------------
 // BUCLE FOR
 //------------------------------------------------------------------------
-
+console.log("--------------------------------");
+console.log("Bucle for");
+console.log("--------------------------------");
 let numero=5;// variable para la tabla de multiplicar 
 let resultado=0;// variable para almacenar el resultado de la multiplicación
 console.log("Tabla de multiplicar del "+numero);
@@ -13,11 +15,13 @@ for(let i=1;i<11;i++){ // iniciamos con i a 1, mientras sea <11, se incrementa e
 //--------------------------------------------------------------------------
 // RECORRER ARRAY CON WHILE
 //--------------------------------------------------------------------------
-
+console.log("--------------------------------");
+console.log("Recorrer array con while");
+console.log("--------------------------------");
 let contador=0;// declaramos el contador
 let numeros=[3,8,15,2];// declaramos array de números
 let suma=0;// declaramos una variable numérica para almacenar el resultado de las sumas
-console.log("Bucle con while");
+
 while(contador<numeros.length){ // mientras contador sea < a la longitud del array
     suma=suma+numeros[contador]; // se suma  a la variable suma el valor del numero que esta en el indice que apunta el contador 
     contador++; // se incrementa el contador
@@ -27,9 +31,12 @@ console.log("La suma total es: "+suma); // se imprime la suma total
 //-----------------------------------------------------------------------------
 // DO-WHILE
 //-----------------------------------------------------------------------------
+console.log("--------------------------------");
+console.log("Bucle con do-while");
+console.log("--------------------------------");
 
 let contadorDoWhile=0; // declaramos el contador
-console.log("Bucle con do-while");
+
 do{ // hacer 
     console.log("Iteracion: "+contadorDoWhile); // imprime cada paso por el bucle y el valor del contador
     contadorDoWhile++; // se incrementa el contador en 1
