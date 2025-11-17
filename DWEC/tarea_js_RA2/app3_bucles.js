@@ -28,10 +28,10 @@ console.log("La suma total es: "+suma); // se imprime la suma total
 // DO-WHILE
 //-----------------------------------------------------------------------------
 
-let contadorDoWhile=0;
+let contadorDoWhile=0; // declaramos el contador
 
-do{
-    console.log("Iteracion: "+contadorDoWhile);
-    contadorDoWhile++;
-}while (contadorDoWhile<10);
+do{ // hacer 
+    console.log("Iteracion: "+contadorDoWhile); // imprime cada paso por el bucle y el valor del contador
+    contadorDoWhile++; // se incrementa el contador en 1
+}while (contadorDoWhile<10); // mientras el contador es menor a 10 se repite el bucle
 
