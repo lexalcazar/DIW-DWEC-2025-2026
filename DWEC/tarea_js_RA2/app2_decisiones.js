@@ -31,9 +31,9 @@ if(nota<5){ // si nota es menor a 5
 
 let notaTexto="7"; // declaramos notaTexto como un string
 let notaNumero; // declaramos notaNumero
-console.log(typeof(notaTexto));// imprimimos el tipo de dato que hay en notaTexto
+console.log("Tipo de dato: "+typeof(notaTexto));// imprimimos el tipo de dato que hay en notaTexto
 notaNumero=Number(notaTexto);// convertimos notaTexto a número y lo almacenamos en notaNumero
-console.log(typeof(notaNumero));// imprimimos el tipo de dato almacenado en notaNumero
+console.log("Visualizamos el tipo de dato tras la conversión: "+typeof(notaNumero));// imprimimos el tipo de dato almacenado en notaNumero
 
 //----------------------------------------------------------------------------------
 // USO DE SWITCH

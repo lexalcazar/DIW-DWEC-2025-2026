@@ -59,9 +59,9 @@ console.log("Hola "+"Alexander "+"el precio final es: "+precioConIva);
 //Ámbito de variables
 //---------------------------------------------------------------------
 
-let contador=0;
+let contador=0;// valor fuera del bucle
 if(true){
-    let contador=99;
+    let contador=99;// valor dentro del bucle
     console.log("Contador dentro del if: "+contador);
 }
 console.log("Contador fuera del if: "+contador);
@@ -74,7 +74,6 @@ let numeroComoTexto="50";
 numeroComoTexto=numeroComoTexto+1;// ambos se tratan como un texto y se concatenan
 console.log("Visualizamos que se han concatenado: "+numeroComoTexto);
 console.log("Tipo de dato: "+typeof numeroComoTexto);// tipo de dato almacenado
-
 numeroComoTexto=Number(numeroComoTexto);//conversión a número
 console.log("Tipo de dato: "+typeof numeroComoTexto);
 numeroComoTexto=numeroComoTexto+6;// aqui se suma seis
