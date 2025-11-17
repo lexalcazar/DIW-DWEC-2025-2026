@@ -1,44 +1,59 @@
 //---------------------------------
 //Declaracion de variables
 //---------------------------------
-// Las variables tipo let las utilizamos para que su valor prevalezca en todo el script 
-// y no sólo en determinados bloques.
-//Declaramos una variable numerica edad en la que guardaremos números.
+// Las variables tipo let las utilizamos cuando va a variar el valor de la variable
+// además si declaramos una variable con let dentro de un bloque respeta el valor dentro de él.
+
+// Las variables tipo const se declaran cuando el valor que almacenamos no va a cambiar.
+//-----------------------------------------------------------------------------------------------
+
+//Declaramos una variable numérica edad en la que guardaremos números.
 let edad=40;
 //Declaramos una variable tipo String en la que se guarda texto.
 let nombre="Alex";
 // Declaramos una variable booleana con el valor true.
 let esMayorDeEdad=true;
 // Declaramos una variable const tipo float. 
-// este tipo de variable se declara cuando el valor que almacenamos no va a cambiar
-// ni vamos a realizar ningun tipo de operacion que lo vaya a modificar.
 const iva=0.21;
 
 //------------------------------------------------------------------
 //Operadores
 //-----------------------------------------------------------------
 
-let numero1=10;
-let numero2=5;
+let numero1=10;// declaramos el primer número
+let numero2=5;// declaramos el segundo número
+
+// declaramos variable tupo number para almacenar el resultado de las operaciones
 let resultado=0;
-resultado=numero1+numero2;// suma
+
+resultado=numero1+numero2;// realizamos la suma
+
+// imprimimos el resultado de la suma
 console.log("Resultado de la suma: "+ numero1+" + "+numero2+" = "+resultado);
 
-resultado=numero1-numero2;//resta
+resultado=numero1-numero2;// realizamos la resta
+
+// imprimimos el resultado de la resta
 console.log("Resultado de la resta: "+ numero1+" - "+numero2+" = "+resultado);
 
-resultado=numero1*numero2;//multiplicación
+resultado=numero1*numero2;// realizamos la multiplicación
+
+// imprimimos el resultado de la multiplicación
 console.log("Resultado de la multiplicación: "+ numero1+" * "+numero2+" = "+resultado);
 
-resultado=numero1/numero2;//división
+resultado=numero1/numero2;//realizamos la división
+
+// imprimimos el resultado de la división
 console.log("Resultado de la división: "+ numero1+" / "+numero2+" = "+resultado);
 
+//----------------------------------------------------------------------------------
 // variables iva
-
-let precioSinIva=100;// precio base sin Iva
-let precioConIva=0;// declaramos esta variable a 0 para después darle el valor de la operación
-precioConIva=precioSinIva+(precioSinIva*iva); // multiplicamos el iva por el precio base y lo sumamos al precio sin IVA
-console.log("Hola "+"Alexander "+"el precio final es: "+precioConIva);// concatenación
+//-----------------------------------------------------------------------------------
+let precioSinIva=100; // variable con el precio base
+let precioConIva=0; // variable que almacenará el resultado del calculo con el iva
+precioConIva=precioSinIva+(precioSinIva*iva);// calcúlamos el iva
+// imprimimos el resultado final
+console.log("Hola "+"Alexander "+"el precio final es: "+precioConIva);
 
 //---------------------------------------------------------------------
 //Ámbito de variables
@@ -47,20 +62,20 @@ console.log("Hola "+"Alexander "+"el precio final es: "+precioConIva);// concate
 let contador=0;
 if(true){
     let contador=99;
-    console.log("Contador dentro del if: "+contador);// Contador declarado dentro del if
+    console.log("Contador dentro del if: "+contador);
 }
-console.log("Contador fuera del if: "+contador); // contador de fuera
+console.log("Contador fuera del if: "+contador);
 
 //---------------------------------------------------
 //Convarsión de tipos
 //---------------------------------------------------
 
-let numeroComoTexto="50";// declaramos la variable
+let numeroComoTexto="50";
 numeroComoTexto=numeroComoTexto+1;// ambos se tratan como un texto y se concatenan
-console.log("Sumando uno a 50 en tipo texto: "+numeroComoTexto);
-console.log("Tipo de dato: "+typeof numeroComoTexto);// tipo de dato almacenado
+console.log(numeroComoTexto);
+console.log(typeof numeroComoTexto);// tipo de dato almacenado
 
 numeroComoTexto=Number(numeroComoTexto);//conversión a número
-console.log("Tipo de dato tras la conversión: "+typeof numeroComoTexto);
-numeroComoTexto=numeroComoTexto+6;// aqui se suma uno 
-console.log("Sumando seis a 501 en tipo número: "+numeroComoTexto);
+console.log(typeof numeroComoTexto);
+numeroComoTexto=numeroComoTexto+6;// aqui se suma seis
+console.log(numeroComoTexto);
