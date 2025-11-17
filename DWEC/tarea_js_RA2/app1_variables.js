@@ -72,10 +72,10 @@ console.log("Contador fuera del if: "+contador);
 
 let numeroComoTexto="50";
 numeroComoTexto=numeroComoTexto+1;// ambos se tratan como un texto y se concatenan
-console.log(numeroComoTexto);
-console.log(typeof numeroComoTexto);// tipo de dato almacenado
+console.log("Visualizamos que se han concatenado: "+numeroComoTexto);
+console.log("Tipo de dato: "+typeof numeroComoTexto);// tipo de dato almacenado
 
 numeroComoTexto=Number(numeroComoTexto);//conversión a número
-console.log(typeof numeroComoTexto);
+console.log("Tipo de dato: "+typeof numeroComoTexto);
 numeroComoTexto=numeroComoTexto+6;// aqui se suma seis
-console.log(numeroComoTexto);
+console.log("Visualizamos la suma: "+numeroComoTexto);
