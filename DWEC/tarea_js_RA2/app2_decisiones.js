@@ -39,19 +39,23 @@ console.log(typeof(notaNumero));// imprimimos el tipo de dato almacenado en nota
 // USO DE SWITCH
 //----------------------------------------------------------------------------------
 
-let rolUsuario="caca";
+let rolUsuario="caca"; // decramos la variable a comprobar
 
-switch(rolUsuario){
-    case "admin":
-        console.log("Acceso completo");
-        break;
-    case "usuario":
-        console.log("Acceso limitado");
-        break;
-    case "invitado":
-        console.log("Sólo lectura");
-        break;
-    default:
-        console.log("Rol no reconocido");
-        break;
+switch(rolUsuario){ // comprobamos el valor de rolUsuario
+
+    case "admin": // si es admin el valor de rolUsuario
+        console.log("Acceso completo"); // se imprime Acceso completo
+        break; // en caso de haber entrado sale del bucle con esta línea
+
+    case "usuario": // si es usuario el valor de rolUsuario
+        console.log("Acceso limitado"); // imprime Acceso limitado 
+        break;// en caso de haber entrado sale del bucle con esta línea 
+
+    case "invitado":// si es invitado el valor de rolUsuario
+        console.log("Sólo lectura");// imprime Sólo lectura
+        break;// en caso de haber entrado sale del bucle con esta línea
+
+    default:// para cualquier otro valor de rolUsuario
+        console.log("Rol no reconocido");// imprime Rol no reconocido
+        break;// en caso de haber entrado sale del bucle con esta línea
 }

@@ -35,8 +35,8 @@ console.log("Resultado de la división: "+ numero1+" / "+numero2+" = "+resultado
 
 // variables iva
 
-let precioSinIva=100;
-let precioConIva=0;
+let precioSinIva=100;// precio base sin Iva
+let precioConIva=0;// declaramos esta variable a 0 para después darle el valor de la operación
 precioConIva=precioSinIva+(precioSinIva*iva); // multiplicamos el iva por el precio base y lo sumamos al precio sin IVA
 console.log("Hola "+"Alexander "+"el precio final es: "+precioConIva);// concatenación
 
