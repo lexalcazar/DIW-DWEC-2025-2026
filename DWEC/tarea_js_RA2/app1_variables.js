@@ -19,7 +19,9 @@ const iva=0.21;
 //------------------------------------------------------------------
 //Operadores
 //-----------------------------------------------------------------
-
+console.log("--------------------------------");
+console.log("Operadores");
+console.log("--------------------------------");
 let numero1=10;// declaramos el primer número
 let numero2=5;// declaramos el segundo número
 
@@ -49,6 +51,10 @@ console.log("Resultado de la división: "+ numero1+" / "+numero2+" = "+resultado
 //----------------------------------------------------------------------------------
 // variables iva
 //-----------------------------------------------------------------------------------
+console.log("--------------------------------");
+console.log("Cálculo de  Iva");
+console.log("--------------------------------");
+
 let precioSinIva=100; // variable con el precio base
 let precioConIva=0; // variable que almacenará el resultado del calculo con el iva
 precioConIva=precioSinIva+(precioSinIva*iva);// calcúlamos el iva
@@ -58,6 +64,9 @@ console.log("Hola "+"Alexander "+"el precio final es: "+precioConIva);
 //---------------------------------------------------------------------
 //Ámbito de variables
 //---------------------------------------------------------------------
+console.log("--------------------------------");
+console.log("Ámbito de variables");
+console.log("--------------------------------");
 
 let contador=0;// valor fuera del bucle
 if(true){
@@ -67,8 +76,11 @@ if(true){
 console.log("Contador fuera del if: "+contador);
 
 //---------------------------------------------------
-//Convarsión de tipos
+//Convarsión de tipos de datos
 //---------------------------------------------------
+console.log("--------------------------------");
+console.log("Conversión de tipos de datos");
+console.log("--------------------------------");
 
 let numeroComoTexto="50";
 numeroComoTexto=numeroComoTexto+1;// ambos se tratan como un texto y se concatenan
