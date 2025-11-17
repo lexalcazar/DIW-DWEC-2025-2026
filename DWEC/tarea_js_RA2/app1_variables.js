@@ -28,22 +28,22 @@ let numero2=5;// declaramos el segundo número
 // declaramos variable tupo number para almacenar el resultado de las operaciones
 let resultado=0;
 
-resultado=numero1+numero2;// realizamos la suma
+resultado=numero1+numero2;// realizamos la suma utilizando el operador +
 
 // imprimimos el resultado de la suma
 console.log("Resultado de la suma: "+ numero1+" + "+numero2+" = "+resultado);
 
-resultado=numero1-numero2;// realizamos la resta
+resultado=numero1-numero2;// realizamos la resta utilizando el operador -
 
 // imprimimos el resultado de la resta
 console.log("Resultado de la resta: "+ numero1+" - "+numero2+" = "+resultado);
 
-resultado=numero1*numero2;// realizamos la multiplicación
+resultado=numero1*numero2;// realizamos la multiplicación utilizando el operador *
 
 // imprimimos el resultado de la multiplicación
 console.log("Resultado de la multiplicación: "+ numero1+" * "+numero2+" = "+resultado);
 
-resultado=numero1/numero2;//realizamos la división
+resultado=numero1/numero2;//realizamos la división utilizando el operador /
 
 // imprimimos el resultado de la división
 console.log("Resultado de la división: "+ numero1+" / "+numero2+" = "+resultado);
@@ -55,11 +55,15 @@ console.log("--------------------------------");
 console.log("Cálculo de  Iva");
 console.log("--------------------------------");
 
+
 let precioSinIva=100; // variable con el precio base
 let precioConIva=0; // variable que almacenará el resultado del calculo con el iva
+
 precioConIva=precioSinIva+(precioSinIva*iva);// calcúlamos el iva
-// imprimimos el resultado final
-console.log("Hola "+"Alexander "+"el precio final es: "+precioConIva);
+let mensajeCompleto="Hola"+" Alexander "+"el precio final es: "+precioConIva;// variable de concatenacion
+
+// imprimimos el mesaje comleto
+console.log(mensajeCompleto);
 
 //---------------------------------------------------------------------
 //Ámbito de variables
@@ -76,7 +80,7 @@ if(true){
 console.log("Contador fuera del if: "+contador);
 
 //---------------------------------------------------
-//Convarsión de tipos de datos
+//Conversión de tipos de datos
 //---------------------------------------------------
 console.log("--------------------------------");
 console.log("Conversión de tipos de datos");

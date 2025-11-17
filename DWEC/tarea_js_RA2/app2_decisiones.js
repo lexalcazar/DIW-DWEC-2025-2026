@@ -27,9 +27,12 @@ if(nota<5){ // si nota es menor a 5
                     console.log("Has obtenido un: "+ nota+" Sobresaliente"); // imprime sobresaliente
 
                     }
+                   
 //-------------------------------------------------------------------------------
 // VALIDACIÓN DE ENTRADA TIPO TEXTO -> NÚMERO
 //-------------------------------------------------------------------------------
+// Es importante cambiar el tipo de dato que llega desde un imput debido a que siempre
+//devuelve un string. Si queremos realizar alguna operación con los datos no nos será posible.
 console.log("------------------------------------------");
 console.log("Validación de entrada de texto -> número");
 console.log("------------------------------------------");
@@ -45,7 +48,7 @@ console.log("Visualizamos el tipo de dato tras la conversión: "+typeof(notaNume
 console.log("-----------------------------");
 console.log("Uso de switch");
 console.log("-----------------------------");
-let rolUsuario="caca"; // decramos la variable a comprobar
+let rolUsuario="admin"; // decramos la variable a comprobar
 
 switch(rolUsuario){ // comprobamos el valor de rolUsuario
 
