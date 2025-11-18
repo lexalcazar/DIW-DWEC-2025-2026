@@ -4,7 +4,7 @@
 console.log("----------------------------------");
 console.log("Programa clasificación de notas");
 console.log("----------------------------------");
-let nota=7;
+let nota=9;
 
 if(nota<5){ // si nota es menor a 5
 
@@ -12,7 +12,7 @@ if(nota<5){ // si nota es menor a 5
 
     }else if(nota<6 && nota>=5){ // si es menor que 6 y mayor que cinco
 
-        console.log("Has obtenido un: "+ nota+" Suficinete");// imprime suficinete
+        console.log("Has obtenido un: "+ nota+" Suficiente");// imprime suficinete
 
         }else if(nota<7 && nota>=6){ // si es menor que 7 y mayor o igual a 6
 
@@ -27,7 +27,7 @@ if(nota<5){ // si nota es menor a 5
                     console.log("Has obtenido un: "+ nota+" Sobresaliente"); // imprime sobresaliente
 
                     }
-                   
+                  
 //-------------------------------------------------------------------------------
 // VALIDACIÓN DE ENTRADA TIPO TEXTO -> NÚMERO
 //-------------------------------------------------------------------------------
@@ -45,6 +45,8 @@ console.log("Visualizamos el tipo de dato tras la conversión: "+typeof(notaNume
 //----------------------------------------------------------------------------------
 // USO DE SWITCH
 //----------------------------------------------------------------------------------
+// Se suele utilizar Switch cuando queremos comparar una variable con varios valores
+//posibles. Es una estructura más limpia que encadenar varios if y else
 console.log("-----------------------------");
 console.log("Uso de switch");
 console.log("-----------------------------");
