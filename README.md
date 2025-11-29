@@ -1,30 +1,31 @@
 ## DIW-DWEC-2025-2026
 # Repositorio de las asignaturas DIW y DWEC
+
 # DWEC
 
-[X] Práctica tema 1
-    [X] Ejercicios
-    [X] Capturas
-    [X] Entregada
+- [x] Práctica tema 1
+  - [x] Ejercicios
+  - [x] Capturas
+  - [x] Entregada
 
-[X] Práctica tema 2
-    [X] Ejercicios
-    [X] Capturas
-    [X] Entregada
+- [x] Práctica tema 2
+  - [x] Ejercicios
+  - [x] Capturas
+  - [x] Entregada
 
-[X] Práctica tema 3
-    [X] Ejercicios
-    [] Capturas
-    [] Entregada
-    
+- [x] Práctica tema 3
+  - [x] Ejercicios
+  - [ ] Capturas
+  - [ ] Entregada
+
 # DIW
 
-[X] Práctica tema 1
-    [X] Ejercicios
-    [X] Capturas
-    [X] Entregada
+- [x] Práctica tema 1
+  - [x] Ejercicios
+  - [x] Capturas
+  - [x] Entregada
 
-[] Práctica tema 2
-    [] Ejercicios
-    [] Capturas
-    [] Entregada
+- [ ] Práctica tema 2
+  - [ ] Ejercicios
+  - [ ] Capturas
+  - [ ] Entregada
