@@ -1,31 +1,36 @@
-## DIW-DWEC-2025-2026
-# Repositorio de las asignaturas DIW y DWEC
+# 📘 DIW-DWEC 2025-2026
+Repositorio personal de prácticas y ejercicios de las asignaturas **DIW** y **DWEC** del ciclo **DAW**.
 
-# DWEC
+---
 
-- [x] Práctica tema 1
-  - [x] Ejercicios
-  - [x] Capturas
-  - [x] Entregada
+## 🧩 DWEC
 
-- [x] Práctica tema 2
-  - [x] Ejercicios
-  - [x] Capturas
-  - [x] Entregada
+### Práctica 1 — 🟢 COMPLETADA
+- 🟢 Ejercicios  
+- 🟢 Capturas  
+- 🟢 Entregada  
 
-- [x] Práctica tema 3
-  - [x] Ejercicios
-  - [ ] Capturas
-  - [ ] Entregada
+### Práctica 2 — 🟢 COMPLETADA
+- 🟢 Ejercicios  
+- 🟢 Capturas  
+- 🟢 Entregada  
 
-# DIW
+### Práctica 3 — 🟡 EN PROCESO
+- 🟢 Ejercicios  
+- 🔴 Capturas  
+- 🔴 Entregada  
 
-- [x] Práctica tema 1
-  - [x] Ejercicios
-  - [x] Capturas
-  - [x] Entregada
+---
 
-- [ ] Práctica tema 2
-  - [ ] Ejercicios
-  - [ ] Capturas
-  - [ ] Entregada
+## 🎨 DIW
+
+### Práctica 1 — 🟢 COMPLETADA
+- 🟢 Ejercicios  
+- 🟢 Capturas  
+- 🟢 Entregada  
+
+### Práctica 2 — 🔴 PENDIENTE
+- 🔴 Ejercicios  
+- 🔴 Capturas  
+- 🔴 Entregada  
+
