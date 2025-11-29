@@ -29,8 +29,8 @@ Repositorio personal de prácticas y ejercicios de las asignaturas **DIW** y **D
 - 🟢 Capturas  
 - 🟢 Entregada  
 
-### Práctica 2 — 🔴 PENDIENTE
-- 🔴 Ejercicios  
+### Práctica 2 — 🟡 EN PROCESO
+- 🟡 Ejercicios  
 - 🔴 Capturas  
 - 🔴 Entregada  
 
