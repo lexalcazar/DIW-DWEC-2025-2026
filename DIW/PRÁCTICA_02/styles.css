@@ -36,7 +36,7 @@ a {
 
 /*Punto 3*/
 
-/*Punto 4
+/*Punto 4*/
 .tarjeta-ejemplo{
     margin: 20px 15px 20px 15px;
     padding: 10px;
@@ -47,33 +47,44 @@ a {
     height:200px;
     box-sizing: border-box;
     
-}*/
+}
 
 /*Punto 5*/
 
-.posicionamiento-estatico{
+.posicionamiento-estatico{ /* no se mueve*/ 
     position:static;
+    border: solid black 5px;
 }
-.posicionamiento-relativo{
+.posicionamiento-relativo{ /* se mueve pero guarda su espacion en el html*/
     position:relative;
+    top: 200px;
+    left: 100px;
+    border: solid black 5px;
+    padding: 10px 15px 10px 15px;
 }
-.caja-absolute{
+.caja-absolute{ /*Se mueve y deja de tener su espcio en el html*/
     position:absolute;
+    top: 100px;
+    left: 300px;
+    border: solid black 5px;
+    padding: 10px 15px 10px 15px;
 }
-.posicionamiento-fixed{
+.posicionamiento-fixed{ /* se pega a un punto y núnca desaparece de la pantalla*/ 
    
     position: fixed;
-    bottom: 10px;
+    top: 10px;
     right: 10px;
     border: solid black 2px;
     background: green;
     color: white;
-    padding: 10px 15px;
-    z-index: 9999;
+    padding: 10px 15px 10px 15px;
+    /*z-index: 9999;*/
 }
 
-.caja-float{
+.caja-float{ /* se mueve y deja libre su espacio*/ 
     float:right;
+    border: solid black 5px;
+    padding: 10px 15px 10px 15px;
 }
 
 /* punto 6 tablas*/
