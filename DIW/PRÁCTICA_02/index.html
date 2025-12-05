@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarea 02 - Laboratorio completo de CSS</title>
+
+  <!-- Apartado 2: enlazar styles.css aquí -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Apartado 7: hoja de estilos alternativa (modo oscuro)
+  <link rel="alternate stylesheet" href="dark.css" title="oscuro">
+  -->
+  
+  <!-- Punto 2.2
+  <style>
+      h3{ background-color: black; color:white;}
+      div{margin: 20px 15 px 20 px 15 px; border: solid red 10px;}
+      h4{padding:20px;}
+      p{font-size: x-small;}
+
+  </style>
+  -->
+</head>
+<body>
+  <header>
+    <h1>Tarea 02 - Laboratorio completo de CSS</h1>
+    <p>RA2. Crea interfaces web homogéneas definiendo y aplicando estilos.</p>
+
+    <nav>
+      <ul>
+        <li><a href="#apartado1">1. Estilos en línea</a></li>
+        <li><a href="#apartado2">2. Estilos internos y externos</a></li>
+        <li><a href="#apartado3">3. Selectores CSS</a></li>
+        <li><a href="#apartado4">4. Modelo de cajas</a></li>
+        <li><a href="#apartado5">5. Posicionamiento</a></li>
+        <li><a href="#apartado6">6. Tablas y listas</a></li>
+        <li><a href="#apartado7">7. Hojas alternativas</a></li>
+        <li><a href="#apartado8">8. Validación</a></li>
+        <li><a href="#apartado9">9. SCSS</a></li>
+      </ul>
+    </nav>
+
+    <hr>
+  </header>
+
+  <main>
+    <!-- ===================================================== -->
+    <!-- APARTADO 1: ESTILOS EN LÍNEA                         -->
+    <!-- CE2_1, CE2_2                                         -->
+    <!-- ===================================================== -->
+    <section id="apartado1">
+      <h2>1. Estilos en línea</h2>
+      <p>
+        Modifica estos elementos usando el atributo <code>style=""</code>.
+        Debes aplicar al menos 6 estilos en línea (color, background, padding, margin, border, font-size, etc.).
+      </p>
+
+      <h3>Elementos para practicar estilos en línea</h3>
+      <p>Este es un párrafo de ejemplo para aplicar estilos en línea.</p>
+
+      <p>Otro párrafo de ejemplo con <strong>texto en negrita</strong> y <em>cursiva</em>.</p>
+
+      <button>Botón de ejemplo</button>
+
+      <div>
+        <h4>Caja de ejemplo</h4>
+        <p>Contenido de la caja que puedes modificar con estilos en línea.</p>
+      </div>
+
+      <img src="https://via.placeholder.com/150" alt="Imagen de ejemplo">
+    </section>
+
+    <hr>
+
+    <!-- ===================================================== -->
+    <!-- APARTADO 2: ESTILOS INTERNOS Y EXTERNOS              -->
+    <!-- CE2_2, CE2_3, CE2_5                                  -->
+    <!-- ===================================================== -->
+    <section id="apartado2">
+      <h2>2. Estilos internos y externos</h2>
+      <p>
+        En este apartado debes mover los estilos en línea al bloque <code>&lt;style&gt;</code> interno
+        y después a la hoja externa <code>styles.css</code>. También debes redefinir varias etiquetas HTML.
+      </p>
+
+      <p>
+        Puedes reutilizar los mismos elementos del apartado anterior o crear nuevos aquí.
+      </p>
+
+      <article>
+        <h3>Título de un artículo de ejemplo</h3>
+        <p>
+          Este texto se usará para comprobar que se han redefinido correctamente las etiquetas
+          <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>, <code>&lt;p&gt;</code>, <code>&lt;a&gt;</code>, etc.
+        </p>
+        <a href="#apartado1">Enlace de prueba</a>
+      </article>
+    </section>
+
+    <hr>
+
+    <!-- ===================================================== -->
+    <!-- APARTADO 3: SELECTORES CSS                           -->
+    <!-- CE2_6, CE2_7                                         -->
+    <!-- ===================================================== -->
+    <section id="apartado3">
+      <h2>3. Selectores CSS</h2>
+      <p>
+        En este apartado debes practicar con distintos selectores: universal, etiqueta, clase, id,
+        descendiente, hijo directo, hermano adyacente, pseudoclases y pseudoelementos.
+      </p>
+
+      <div class="bloque-selectores">
+        <h3>Selector por etiqueta y clase</h3>
+        <p class="texto-importante">Este párrafo tiene la clase <code>texto-importante</code>.</p>
+        <p class="texto-secundario">Este párrafo tiene la clase <code>texto-secundario</code>.</p>
+      </div>
+
+      <div id="caja-id-ejemplo">
+        <h3>Selector por id</h3>
+        <p>Este bloque tiene un id llamado <code>caja-id-ejemplo</code>.</p>
+      </div>
+
+      <div class="contenedor-selectores">
+        <h3>Selectores descendientes e hijo directo</h3>
+        <div class="contenedor-interno">
+          <p>Este párrafo está dentro de <code>.contenedor-interno</code>.</p>
+          <span>Este span también.</span>
+        </div>
+        <p>Este párrafo está dentro de <code>.contenedor-selectores</code> pero fuera de <code>.contenedor-interno</code>.</p>
+      </div>
+
+      <ul class="lista-selectores">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+      </ul>
+
+      <button class="boton-hover">Pasa el ratón por encima de este botón</button>
+    </section>
+
+    <hr>
+
+    <!-- ===================================================== -->
+    <!-- APARTADO 4: MODELO DE CAJAS                          -->
+    <!-- CE2_6                                                -->
+    <!-- ===================================================== -->
+    <section id="apartado4">
+      <h2>4. Modelo de cajas</h2>
+      <p>
+        En este apartado debes crear una tarjeta aplicando <code>margin</code>, <code>padding</code>,
+        <code>border</code>, <code>border-radius</code>, <code>background-color</code>, <code>width</code>,
+        <code>height</code> y <code>box-sizing: border-box</code>.
+      </p>
+
+      <div class="tarjeta-ejemplo">
+        <h3>Título de la tarjeta</h3>
+        <p>
+          Este es el contenido principal de la tarjeta. Aquí podrás ver el efecto del modelo de cajas
+          cuando apliques los estilos en <code>styles.css</code>.
+        </p>
+      </div>
+    </section>
+
+    <hr>
+
+    <!-- ===================================================== -->
+    <!-- APARTADO 5: POSICIONAMIENTO                          -->
+    <!-- CE2_6, CE2_9                                         -->
+    <!-- ===================================================== -->
+    <section id="apartado5">
+      <h2>5. Posicionamiento CSS</h2>
+      <p>
+        En este apartado debes crear ejemplos con <code>static</code>, <code>relative</code>,
+        <code>absolute</code>, <code>fixed</code> y <code>float</code>.
+      </p>
+
+      <div class="posicionamiento-estatico">
+        <h3>Bloque estático</h3>
+        <p>Este bloque será el ejemplo de <code>position: static</code>.</p>
+      </div>
+
+      <div class="posicionamiento-relativo">
+        <h3>Bloque relativo</h3>
+        <p>Este bloque será el ejemplo de <code>position: relative</code>.</p>
+      </div>
+
+      <div class="contenedor-absolute">
+        <h3>Contenedor para absolute</h3>
+        <p>Dentro de este contenedor situarás un elemento con <code>position: absolute</code>.</p>
+        <div class="caja-absolute">
+          Caja con <code>position: absolute</code>.
+        </div>
+      </div>
+
+      <div class="posicionamiento-fixed">
+        <h3>Bloque fijo</h3>
+        <p>Este bloque será el ejemplo de <code>position: fixed</code>.</p>
+      </div>
+
+      <div class="contenedor-float">
+        <h3>Ejemplo con float</h3>
+        <div class="caja-float">Caja flotada 1</div>
+        <div class="caja-float">Caja flotada 2</div>
+        <p>
+          Este texto se usará para comprobar cómo afecta <code>float</code> al flujo del documento.
+        </p>
+      </div>
+    </section>
+
+    <hr>
+
+    <!-- ===================================================== -->
+    <!-- APARTADO 6: TABLAS Y LISTAS                          -->
+    <!-- CE2_6                                                -->
+    <!-- ===================================================== -->
+    <section id="apartado6">
+      <h2>6. Tablas y listas</h2>
+      <p>
+        Crea una tabla con bordes colapsados, cabecera diferenciada y filas alternas.
+        También diseña una lista con marcadores personalizados.
+      </p>
+
+      <h3>Tabla de ejemplo</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Columna 1</th>
+            <th>Columna 2</th>
+            <th>Columna 3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Dato 1</td>
+            <td>Dato 2</td>
+            <td>Dato 3</td>
+          </tr>
+          <tr>
+            <td>Dato 4</td>
+            <td>Dato 5</td>
+            <td>Dato 6</td>
+          </tr>
+          <tr>
+            <td>Dato 7</td>
+            <td>Dato 8</td>
+            <td>Dato 9</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Lista de ejemplo</h3>
+      <ul class="lista-personalizada">
+        <li>Elemento de lista 1</li>
+        <li>Elemento de lista 2</li>
+        <li>Elemento de lista 3</li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <!-- ===================================================== -->
+    <!-- APARTADO 7: HOJAS DE ESTILO ALTERNATIVAS             -->
+    <!-- CE2_4                                                -->
+    <!-- ===================================================== -->
+    <section id="apartado7">
+      <h2>7. Hojas de estilo alternativas (modo claro/oscuro)</h2>
+      <p>
+        En este apartado debes crear dos hojas de estilos: una para modo claro y otra para modo oscuro.
+        Ya tienes enlazada <code>styles.css</code> en la cabecera del documento. Añade también la hoja
+        alternativa <code>dark.css</code> siguiendo las instrucciones de la tarea.
+      </p>
+    </section>
+
+    <hr>
+
+    <!-- ===================================================== -->
+    <!-- APARTADO 8: VALIDACIÓN CSS                           -->
+    <!-- CE2_8                                                -->
+    <!-- ===================================================== -->
+    <section id="apartado8">
+      <h2>8. Validación del CSS</h2>
+      <p>
+        En este apartado deberás validar tu archivo <code>styles.css</code> usando el validador oficial de W3C.
+        No es necesario modificar el HTML para este ejercicio, pero aquí puedes dejar anotaciones si lo deseas.
+      </p>
+    </section>
+
+    <hr>
+
+    <!-- ===================================================== -->
+    <!-- APARTADO 9: PREPROCESADOR SCSS                       -->
+    <!-- CE2_10                                               -->
+    <!-- ===================================================== -->
+    <section id="apartado9">
+      <h2>9. Preprocesador SCSS</h2>
+      <p>
+        En este apartado trabajarás en el archivo <code>styles.scss</code>. No es necesario modificar el HTML,
+        pero puedes añadir aquí comentarios sobre las variables, anidación y mixins que has creado.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <hr>
+    <p>Tarea 02 - Diseño de Interfaces Web · Curso 2024/2025</p>
+  </footer>
+</body>
+</html>

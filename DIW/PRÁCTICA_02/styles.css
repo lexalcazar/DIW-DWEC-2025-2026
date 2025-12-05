@@ -1,0 +1,105 @@
+/* Punto 2 de la práctica
+h1{
+    background-color: red;
+    color:white;
+    border: dotted green 10px;
+    border-radius: 5px;
+    font-size: x-large;
+    padding: 10px;
+    text-align: center;
+}
+h2{
+    background-color: black;
+    color:blueviolet;
+    border-radius: 5px;
+    border: solid green 5px;
+    font-size: x-small;
+    text-transform: uppercase;
+    
+
+}
+
+p{
+    background-color: aquamarine;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+*/
+
+
+/*Punto 3*/
+
+/*Punto 4
+.tarjeta-ejemplo{
+    margin: 20px 15px 20px 15px;
+    padding: 10px;
+    border: solid black 5px;
+    border-radius: 5px;
+    background-color:blueviolet;
+    width:300px;
+    height:200px;
+    box-sizing: border-box;
+    
+}*/
+
+/*Punto 5*/
+
+.posicionamiento-estatico{
+    position:static;
+}
+.posicionamiento-relativo{
+    position:relative;
+}
+.caja-absolute{
+    position:absolute;
+}
+.posicionamiento-fixed{
+   
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border: solid black 2px;
+    background: green;
+    color: white;
+    padding: 10px 15px;
+    z-index: 9999;
+}
+
+.caja-float{
+    float:right;
+}
+
+/* punto 6 tablas*/
+
+table{   
+    border-collapse: collapse;
+}
+ th,td {
+    border: 1px solid #333;
+    padding: 10px;
+}
+thead{
+    background-color: black;
+    color:white;
+}
+
+
+/* Filas alternas (striped) */
+
+tbody tr:nth-child(odd) {
+    background-color: gray;
+}
+
+ tbody tr:nth-child(even) {
+    background-color: white;
+}
+
+
+
