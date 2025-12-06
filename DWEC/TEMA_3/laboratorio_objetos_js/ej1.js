@@ -27,43 +27,56 @@ let aleatorio=Math.random();// genera un numero aleatorio entre 0 y 1
 console.log("Número aleatorio: "+aleatorio);// imprimimos por consola
 document.writeln("<p>Número aleatorio: "+aleatorio);// imprimimos en el HTML
 
+<<<<<<< HEAD
 aleatorio=Math.floor((Math.random()*100)+1);// genera un numero aleatorio entre 0 y 1
 console.log("Número aleatorio entre 0 y 100: "+aleatorio);// imprimimos por consola
 document.writeln("<p>Número aleatorio: "+aleatorio);// imprimimos en el HTML
 
 // Match.max()
 let numeroMaximo=Math.max(378,689,1299,33);// muestra numero máximo de la serie
+=======
+aleatorio=Math.floor((Math.random()*100)+1);// genera un numero aleatorio entre 0 y 100
+console.log("Número aleatorio entre 0 y 100: "+aleatorio);// imprimimos por consola
+document.writeln("<p>Número aleatorio entre 0 y 100: "+aleatorio);// imprimimos en el HTML
+
+// Match.max()
+let numeroMaximo=Math.max(378,689,1299,33);// muestra el numero máximo de un conjunto
+>>>>>>> 375d0a7fb63a978c79200f2a19580b5a81075bbc
 console.log("El número mas alto es: "+numeroMaximo);// imprimimos por consola
 document.writeln("<p> El número máximo es: "+numeroMaximo+"</p>");// imprimimos en el HTML
 
 //Math.pow()
+<<<<<<< HEAD
 let potencia=Math.pow(3,2);// calcula la potencia de 3 al cuadrado
+=======
+let potencia=Math.pow(3,2);// calcula la potencia de 3 elevado a 2 
+>>>>>>> 375d0a7fb63a978c79200f2a19580b5a81075bbc
 console.log("El resultado de elevar 3 al cuadrado es: "+potencia);// imprimimos por consola
 document.writeln("<p> 3 al cuadrado es: "+potencia+"</p>");// imprimimos en el HTmL
 
-//---------------------------------
+//--------------------------------
 //Array
-//-----------------------------------
+//--------------------------------
 document.writeln("<h2>Objeto Array</h2>");
 
 //push()
-let miArray=["Hola","chanchito","marranito"];
-console.log(miArray);
-document.writeln("<p>Mi array contiene: " +miArray+ "</p>");
-miArray.push("feliz");
+let miArray=["Hola","chanchito","marranito"];// declaramos array
+console.log(miArray); // imprimimos en consola
+document.writeln("<p>Mi array contiene: " +miArray+ "</p>");// imprimimos en HTML
+miArray.push("feliz");//añadimos un elemento al array
 document.writeln("<p> Añadimos contenido al array con push(): "+miArray.join(" ")+"</p>");
 console.log(miArray);
-console.log(miArray.join(" "));
+console.log(miArray.join(" "));// muestra por consola pero sin comas ni []
 
 //pop()
-miArray.pop();
+miArray.pop();// quita el ultimo elemento del array
 console.log(miArray);
 document.writeln("<p>Quitamos un elemneto del array con pop(): "+miArray.join(" ")+"</p>");
 
 //lenght
 console.log("Longitud del array: "+miArray.length);// imrimimos por consola
 document.writeln("<p> La longitud del Array es: "+ miArray.length+"</p>");// imprimimos en el HTML
-
+/*
 //----------------------------------------------
 //String: longitud, toUpperCase(), includes().
 //-----------------------------------------------
@@ -85,3 +98,4 @@ document.writeln("<p>Buscamos en el texto con includes() la palabra mundo:"+miSt
 // ahora includes con una variable
 let palabra="Hola";
 console.log("buscamos la palabra "+palabra+" en nuestro String: "+miString.includes(palabra));
+*/
