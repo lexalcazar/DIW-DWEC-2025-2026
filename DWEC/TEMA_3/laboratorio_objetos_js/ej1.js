@@ -23,17 +23,21 @@ document.writeln("<p>Fecha completa: "+dia+"/"+mes+"/"+anio+"</p>")
 document.writeln("<h2>Objeto Math</h2>");
 
 // random()
-let aleatorio=Math.random();// numero aleatorio
+let aleatorio=Math.random();// genera un numero aleatorio entre 0 y 1
 console.log("Número aleatorio: "+aleatorio);// imprimimos por consola
 document.writeln("<p>Número aleatorio: "+aleatorio);// imprimimos en el HTML
 
+aleatorio=Math.floor((Math.random()*100)+1);// genera un numero aleatorio entre 0 y 1
+console.log("Número aleatorio entre 0 y 100: "+aleatorio);// imprimimos por consola
+document.writeln("<p>Número aleatorio: "+aleatorio);// imprimimos en el HTML
+
 // Match.max()
-let numeroMaximo=Math.max(378,689,1299,33);// numero máximo
+let numeroMaximo=Math.max(378,689,1299,33);// muestra numero máximo de la serie
 console.log("El número mas alto es: "+numeroMaximo);// imprimimos por consola
 document.writeln("<p> El número máximo es: "+numeroMaximo+"</p>");// imprimimos en el HTML
 
 //Math.pow()
-let potencia=Math.pow(3,2);// potencia
+let potencia=Math.pow(3,2);// calcula la potencia de 3 al cuadrado
 console.log("El resultado de elevar 3 al cuadrado es: "+potencia);// imprimimos por consola
 document.writeln("<p> 3 al cuadrado es: "+potencia+"</p>");// imprimimos en el HTmL
 
