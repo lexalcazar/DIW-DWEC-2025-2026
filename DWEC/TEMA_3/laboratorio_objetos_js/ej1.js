@@ -41,9 +41,9 @@ let potencia=Math.pow(3,2);// calcula la potencia de 3 elevado a 2
 console.log("El resultado de elevar 3 al cuadrado es: "+potencia);// imprimimos por consola
 document.writeln("<p> 3 al cuadrado es: "+potencia+"</p>");// imprimimos en el HTmL
 
-//---------------------------------
+//--------------------------------
 //Array
-//---------------------------------
+//--------------------------------
 document.writeln("<h2>Objeto Array</h2>");
 
 //push()
