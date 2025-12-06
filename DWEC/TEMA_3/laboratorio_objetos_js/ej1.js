@@ -27,30 +27,17 @@ let aleatorio=Math.random();// genera un numero aleatorio entre 0 y 1
 console.log("Número aleatorio: "+aleatorio);// imprimimos por consola
 document.writeln("<p>Número aleatorio: "+aleatorio);// imprimimos en el HTML
 
-<<<<<<< HEAD
 aleatorio=Math.floor((Math.random()*100)+1);// genera un numero aleatorio entre 0 y 1
 console.log("Número aleatorio entre 0 y 100: "+aleatorio);// imprimimos por consola
 document.writeln("<p>Número aleatorio: "+aleatorio);// imprimimos en el HTML
 
 // Match.max()
 let numeroMaximo=Math.max(378,689,1299,33);// muestra numero máximo de la serie
-=======
-aleatorio=Math.floor((Math.random()*100)+1);// genera un numero aleatorio entre 0 y 100
-console.log("Número aleatorio entre 0 y 100: "+aleatorio);// imprimimos por consola
-document.writeln("<p>Número aleatorio entre 0 y 100: "+aleatorio);// imprimimos en el HTML
-
-// Match.max()
-let numeroMaximo=Math.max(378,689,1299,33);// muestra el numero máximo de un conjunto
->>>>>>> 375d0a7fb63a978c79200f2a19580b5a81075bbc
 console.log("El número mas alto es: "+numeroMaximo);// imprimimos por consola
 document.writeln("<p> El número máximo es: "+numeroMaximo+"</p>");// imprimimos en el HTML
 
 //Math.pow()
-<<<<<<< HEAD
 let potencia=Math.pow(3,2);// calcula la potencia de 3 al cuadrado
-=======
-let potencia=Math.pow(3,2);// calcula la potencia de 3 elevado a 2 
->>>>>>> 375d0a7fb63a978c79200f2a19580b5a81075bbc
 console.log("El resultado de elevar 3 al cuadrado es: "+potencia);// imprimimos por consola
 document.writeln("<p> 3 al cuadrado es: "+potencia+"</p>");// imprimimos en el HTmL
 
