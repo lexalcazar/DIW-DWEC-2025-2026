@@ -43,7 +43,7 @@ document.writeln("<p> 3 al cuadrado es: "+potencia+"</p>");// imprimimos en el H
 
 //---------------------------------
 //Array
-//-----------------------------------
+//----------------------------------
 document.writeln("<h2>Objeto Array</h2>");
 
 //push()
