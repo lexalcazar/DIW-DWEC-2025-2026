@@ -76,7 +76,7 @@ document.writeln("<p>Quitamos un elemneto del array con pop(): "+miArray.join(" 
 //lenght
 console.log("Longitud del array: "+miArray.length);// imrimimos por consola
 document.writeln("<p> La longitud del Array es: "+ miArray.length+"</p>");// imprimimos en el HTML
-/*
+
 //----------------------------------------------
 //String: longitud, toUpperCase(), includes().
 //-----------------------------------------------
@@ -98,4 +98,3 @@ document.writeln("<p>Buscamos en el texto con includes() la palabra mundo:"+miSt
 // ahora includes con una variable
 let palabra="Hola";
 console.log("buscamos la palabra "+palabra+" en nuestro String: "+miString.includes(palabra));
-*/
