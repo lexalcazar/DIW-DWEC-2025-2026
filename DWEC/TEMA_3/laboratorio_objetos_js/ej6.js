@@ -11,15 +11,15 @@ if(nombreGuardado){ // hay datos guardados
     alert("Hola "+nombreGuardado);// mensaje de bienvenida
     console.log("Nombre del usuario = "+nombreGuardado);// mensaje en consola
 }else{ // no hay datos guardados
-    let nombre=prompt("¿Como te llamas?"); // pormpt preguntando el nombre
+    let nombre=prompt("¿Como te llamas?"); // prompt preguntando el nombre
     localStorage.setItem("nombre", nombre); // se guarda
 }
 
-// funcion para borrar datos (la activa el boton del HTML)
+// función para borrar datos (la activa el botón del HTML)
 
 function borrarDatos(){ 
     localStorage.removeItem("nombre"); // borra el dato almacenado
-    alert("Datos borrados"); // mensaje de confirmacion
+    alert("Datos borrados"); // mensaje de confirmación
     console.log("Datos del usuario borrados") // mensaje en la consola
 }
 
