@@ -7,14 +7,14 @@
 // Creacion de h1
 
 let titulo=document.createElement("h1"); // declaramos la variable que contendra el elemento
-titulo.textContent="Encabezaso creado con JavaScript";// añadimos contenido
+titulo.textContent="Encabezado creado con JavaScript";// añadimos contenido
 document.body.appendChild(titulo);// Lo añadimos al body del HTML 
 
 // creacion de p
 
-let parrafo=document.createElement("p");
-parrafo.textContent="Parrafo creado en JavaScript de manera dinámica";
-document.body.appendChild(parrafo);
+let parrafo=document.createElement("p");// variable que contiene el elemento p
+parrafo.textContent="Parrafo creado en JavaScript de manera dinámica";// contenido
+document.body.appendChild(parrafo);// lo añadimos al body
 
 // creacion de una lista
 

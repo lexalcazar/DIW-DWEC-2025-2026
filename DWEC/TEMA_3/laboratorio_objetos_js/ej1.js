@@ -72,15 +72,15 @@ document.writeln("<h2>Objeto String</h2>");
 let miString= new String("Hola mundo");
 
 // length
-console.log("Longitud del String: "+miString.length);
+console.log("Longitud del String: "+miString.length);// muestra la longitud del string
 document.writeln("<p> Longitud del String: "+miString.length+"</p>");
 
 // toUpperCase()
-console.log("Fase con toUperCase: "+miString.toUpperCase());
+console.log("Frase con toUperCase: "+miString.toUpperCase());// transforma a mayúsculas
 document.writeln("<p>Contenido del String en Mayúsculas: "+miString.toUpperCase()+"</p>");
 
 // includes()
-console.log("Bucamos en al String si contine la palabra mundo: "+miString.includes("mundo"));
+console.log("Bucamos en al String si contine la palabra mundo: "+miString.includes("mundo"));// busca la palabra en texto 
 document.writeln("<p>Buscamos en el texto con includes() la palabra mundo:"+miString.includes("mundo")+"</p>");
 // ahora includes con una variable
 let palabra="Hola";
