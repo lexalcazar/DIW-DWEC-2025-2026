@@ -1,0 +1,44 @@
+// variables
+$colorPrincipal:black;
+$colorTexto:white;
+$marginGeneneral: 5px 2px 5px 2px;
+$paddingGeneral: 10px 5px 10px 5px;
+
+// mixing
+@mixin borde_especifico{
+    border:solid blue 5px;
+    border-radius: 20px;
+}
+
+// anidaciones
+#apartado9{
+    background-color: $colorPrincipal;
+    color:$colorTexto;
+    margin:$marginGeneneral;
+    padding:$paddingGeneral;
+    
+    h2{
+        margin: $marginGeneneral;
+        padding: $paddingGeneral;
+        background-color: red;
+        color:black;
+    }
+    p{
+        margin: $marginGeneneral;
+        padding: $paddingGeneral;
+        @include borde_especifico;
+    }
+}
+
+footer{
+    margin: $marginGeneneral;
+    padding: $paddingGeneral;
+    background-color: $colorPrincipal;
+    color: $colorTexto;
+    @include borde_especifico;
+    p{
+        margin: $marginGeneneral;
+        padding: $paddingGeneral;
+        @include borde_especifico;
+    }
+}
