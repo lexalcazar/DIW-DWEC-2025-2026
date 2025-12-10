@@ -1,3 +1,4 @@
+
 /* Punto 2 de la práctica
 h1{
     background-color: red;
@@ -36,6 +37,81 @@ a {
 
 /*Punto 3*/
 
+/*Selector universal*/
+
+* {
+  margin: 5px;
+  padding: 5px;
+}
+
+/*Selector de etiqueta*/
+
+p{
+    color:red;
+}
+
+/*Selector de clase*/
+
+.texto-importante{
+    background-color: black;
+    color: white;
+}
+
+/*Selector de id*/
+
+#apartado3{
+    border: solid blue 3px;
+}
+
+/*Selector descendiente*/
+
+.contenedor-interno p{
+    background-color: blueviolet;
+}
+
+/* hijo directo*/
+
+.lista-selectores > li{
+    font-style: italic;
+    font-size: x-small;
+}
+
+/*hermanos adyacentes*/
+.contenedor-interno + p{
+    background-color: aquamarine;
+}
+
+/*pseudoclases*/
+
+/*hover*/
+.boton-hover:hover{
+    background-color: black;
+    color:white;
+}
+/*active*/
+button:active{
+    background-color: blue;
+    color: white;
+}
+/* first-child*/
+li:first-child {
+  background-color: red;
+}
+
+/* pseudoelementos*/
+
+/*before*/
+p::before {
+  content: "&";
+  color: green;
+  font-size: x-large;
+}
+/*after*/
+p::after{
+    content: "@";
+    color:brown;
+    font-size: x-large;
+}
 /*Punto 4*/
 .tarjeta-ejemplo{
     margin: 20px 15px 20px 15px;
@@ -48,7 +124,6 @@ a {
     box-sizing: border-box;
     
 }
-
 /*Punto 5*/
 
 .posicionamiento-estatico{ /* no se mueve*/ 
@@ -62,7 +137,7 @@ a {
     border: solid black 5px;
     padding: 10px 15px 10px 15px;
 }
-.caja-absolute{ /*Se mueve y deja de tener su espcio en el html*/
+.caja-absolute{ /*Se mueve y deja de tener su espacio en el html*/
     position:absolute;
     top: 100px;
     left: 300px;
@@ -78,17 +153,17 @@ a {
     background: green;
     color: white;
     padding: 10px 15px 10px 15px;
-    /*z-index: 9999;*/
+    
 }
-
 .caja-float{ /* se mueve y deja libre su espacio*/ 
     float:right;
     border: solid black 5px;
     padding: 10px 15px 10px 15px;
+    background-color: aqua;
 }
+/* punto 6 */
 
-/* punto 6 tablas*/
-
+/*Tablas*/
 table{   
     border-collapse: collapse;
 }
@@ -112,5 +187,13 @@ tbody tr:nth-child(odd) {
     background-color: white;
 }
 
+/*Listas*/
 
-
+.lista-personalizada{
+    list-style: none;
+    padding: 20px;
+    margin: 10px 20px 10px 20px;
+}
+.lista-personalizada li::before{
+    content: "#";
+}
