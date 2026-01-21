@@ -15,11 +15,14 @@ Repositorio personal de prácticas y ejercicios de las asignaturas **DIW** y **D
 - 🟢 Capturas  
 - 🟢 Entregada  
 
-### Práctica 3 — 🟡 EN PROCESO
+### Práctica 3 — 🟢 COMPLETADA
 - 🟢 Ejercicios  
-- 🔴 Capturas  
-- 🔴 Entregada  
-
+- 🟢 Capturas  
+- 🟢 Entregada
+### Práctica 4 - 🟢 COMPLETADA
+- 🟢 Ejercicios  
+- 🟢 Capturas
+- 🟡 Entregada
 ---
 
 ## 🎨 DIW
@@ -29,8 +32,8 @@ Repositorio personal de prácticas y ejercicios de las asignaturas **DIW** y **D
 - 🟢 Capturas  
 - 🟢 Entregada  
 
-### Práctica 2 — 🟡 EN PROCESO
-- 🟡 Ejercicios  
-- 🔴 Capturas  
-- 🔴 Entregada  
+### Práctica 2 — 🟢 COMPLETADA
+- 🟢 Ejercicios  
+- 🟢 Capturas  
+- 🟢 Entregada  
 
